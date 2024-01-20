@@ -47,7 +47,7 @@ h1, h2 {
     header {
         width: 100%;
         height: 30vh;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         position: relative;
         overflow: hidden;
         white-space: nowrap;
@@ -92,48 +92,124 @@ h1, h2 {
     }
 
     /* SECTION #PRESENT */
+    .logo-container {
+        width: 100px;
+        animation: rotate 5s linear infinite;
+        margin: 0 auto 20px;
+
+        img {
+            width: 100%;
+        }
+    }
+    
     #present {
-        background: #2525256f;
-        border-radius: 10px;
-        box-shadow: 0px 0px 50px -3px rgba(1, 189, 146, 0.3);
         width: 80%;
         margin: 40px auto;
         padding: 10px 0;
     
+
         h1 {
             font-size: 2.5rem;
-            margin-bottom: 15px;
-    
-            #main-logo {
-                width: 100px;
-                animation: rotate 5s linear infinite;
+            margin: 20px auto 15px;
+        }
+    }
+
+    /* CARDS */
+    .single-card {
+        background: rgba(1, 189, 146, 0.3);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8.3px);
+        margin: 20px;
+
+        img {
+            border-radius: 5px 5px 0 0;
+        }
+
+        .card-content {
+            padding: 10px;
+
+            h5 {
+                font-size: 1.3rem;
+                margin: 10px 0;
+            }
+
+            p {
+                font-size: 1.1rem;
             }
         }
     }
 }
-/* 
+
+
 @media screen and (min-width: 576px) {
 
     header {
-        width: 100%;
         height: 40vh;
-        margin-bottom: 60px;
-        position: relative;
-        overflow: hidden;
-        white-space: nowrap;
+    }
+
+    p.animated-text {
+        font-size: 1.7rem;
+    }
+    
+
+    .logo-container {
+        width: 150px;
+    }
+    
+    h1 {
+        letter-spacing: 3px;
+        font-size: 2.8rem;
+    }
+
+    .single-card {
+        margin: 0 0 25px;
+    }
+
+    .single-card img {
+        height: 170px;
+        object-fit: cover;
+    }
+
+    .single-card .card-content p {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
+    header {
+        height: 45vh;
+    }
+
+    p.animated-text {
+        font-size: 1.9rem;
     }
     
     .title-container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        height: 20%;
-    
-        img {
-            width: 100%;
-            height: 100%;
-        }
+        height: 25%;
     }
-} */
+
+    .logo-container {
+        width: 170px;
+    }
+    
+    h1 {
+        letter-spacing: 5px;
+    }
+
+    .single-card {
+        margin: 0 auto 30px;
+        width: 80%;
+    }
+
+    .single-card img {
+        height: 190px;
+    }
+
+    .single-card .card-content h5 {
+        font-size: 1.4rem;
+    }
+
+}
