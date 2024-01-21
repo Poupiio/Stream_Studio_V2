@@ -111,9 +111,9 @@ h1, h2 {
         flex-wrap: wrap;
     }
     .card {
-        background: rgba(1, 189, 146, 0.3);
+        background: rgba(112, 115, 114, 0.3);
         border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 30px rgba(210, 28, 73, 0.605);
         backdrop-filter: blur(8.3px);
         margin: 15px;
         width: 100%;
@@ -230,10 +230,12 @@ h1, h2 {
     .cards {
         justify-content: space-around;
         align-items: center;
+        width: 75%;
+        margin: 0 auto;
     }
     .card {
-        width: 45%;
-        height: 550px;
+        width: 46%;
+        height: 600px;
         margin-bottom: 50px;
     }
 }
