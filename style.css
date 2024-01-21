@@ -157,7 +157,7 @@ h1, h2 {
     }
     .card {
         margin: 0 auto 25px;
-        width: 100%;
+        width: 80%;
     }
     .card .content {
         padding: 15px;
@@ -192,7 +192,7 @@ h1, h2 {
         align-items: center;
     }
     .card {
-        width: 70%;
+        width: 65%;
     }
     .card .img {
         height: 20vh;
@@ -233,7 +233,7 @@ h1, h2 {
     }
     .card {
         width: 45%;
-        height: 580px;
+        height: 550px;
         margin-bottom: 50px;
     }
 }
