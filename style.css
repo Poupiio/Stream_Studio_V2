@@ -89,7 +89,7 @@ h1, h2 {
     /* SECTION #PRESENT */
     .logo-container {
         width: 100px;
-        animation: rotate 5s linear infinite;
+        animation: rotate 8s linear infinite;
         margin: 0 auto 20px;
 
         img {
@@ -164,6 +164,14 @@ h1, h2 {
 }
 
 @media screen and (min-width: 576px) {
+    @keyframes scrollText {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
     header {
         height: 40vh;
     }
@@ -208,7 +216,7 @@ h1, h2 {
     }
     p.animated-text {
         font-size: 1.9rem;
-        animation: scrollText 13s linear infinite;
+        animation: scrollText 15s linear infinite;
     }
 
     .title-container {
@@ -256,6 +264,10 @@ h1, h2 {
     header {
         height: 60vh;
     }
+    .title-container {
+        height: 13%;
+        width: 60%;
+    }
     .logo-container {
         width: 200px;
     }
@@ -270,18 +282,21 @@ h1, h2 {
     }
     .card {
         width: 46%;
-        height: 600px;
+        height: 690px;
         margin-bottom: 50px;
     }
 }
 
 @media screen and (min-width: 1450px) {
     header {
-        height: 90vh;
+        height: 70vh;
+    }
+    p.animated-text {
+        animation: scrollText 18s linear infinite;
     }
     .title-container {
-        width: 55%;
-        height: 10vh;
+        width: 60%;
+        height: 12%;
     }
     .logo-container {
         width: 230px;
@@ -291,10 +306,11 @@ h1, h2 {
         letter-spacing: 10px;
     }
     .card {
-        height: 500px;
+        height: 650px;
+        margin-bottom: 50px;
     }
     .card .img {
-        height: 25vh;
+        height: 20vh;
     }
     .card .content h3 {
         font-size: 1.5rem;
