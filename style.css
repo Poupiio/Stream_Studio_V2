@@ -79,7 +79,7 @@ h1, h2 {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 80%;
-        height: 20%;
+        height: 15%;
     
         img {
             width: 100%;
@@ -141,12 +141,38 @@ h1, h2 {
     }
 }
 
+@media screen and (min-width: 380px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (min-width: 447px) {
+    .title-container {
+        width: 70%;
+        height: 20%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+    
+}
+
 @media screen and (min-width: 576px) {
     header {
         height: 40vh;
     }
     p.animated-text {
         font-size: 1.7rem;
+    }
+    .title-container {
+        width: 70%;
+        height: 15%;
     }
     .logo-container {
         width: 150px;
@@ -156,7 +182,7 @@ h1, h2 {
         font-size: 2.6rem;
     }
     .card {
-        margin: 0 auto 25px;
+        margin: 0 auto 40px;
         width: 80%;
     }
     .card .content {
@@ -168,15 +194,25 @@ h1, h2 {
 }
 
 @media screen and (min-width: 800px) {
+    @keyframes scrollText {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
     header {
         height: 45vh;
     }
     p.animated-text {
         font-size: 1.9rem;
+        animation: scrollText 13s linear infinite;
     }
 
     .title-container {
-        height: 20%;
+        height: 15%;
         width: 70%;
     }
     .logo-container {
@@ -194,6 +230,7 @@ h1, h2 {
     }
     .card {
         width: 65%;
+        margin: 0 0 50px;
     }
     .card .img {
         height: 20vh;
@@ -240,20 +277,23 @@ h1, h2 {
 
 @media screen and (min-width: 1450px) {
     header {
-        height: 70vh;
+        height: 90vh;
     }
     .title-container {
-        width: 65%;
-        height: 13vh;
+        width: 55%;
+        height: 10vh;
     }
     .logo-container {
         width: 230px;
     }
     h1 {
-        font-size: 4.5rem;
-        letter-spacing: 6px;
+        font-size: 4rem;
+        letter-spacing: 10px;
     }
-    .card img {
+    .card {
+        height: 500px;
+    }
+    .card .img {
         height: 25vh;
     }
     .card .content h3 {
