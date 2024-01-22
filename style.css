@@ -73,19 +73,15 @@ h1, h2 {
         font-size: 1.3rem;
         animation: scrollText 15s linear infinite;
     }
-    .title-container {
+    #main-title {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 80%;
-        height: 15%;
-    
-        img {
-            width: 100%;
-            height: 100%;
-        }
+        color: rgba(179, 14, 22, 0.845);
+        font-size: 2.7rem;
     }
+
     /* SECTION #PRESENT */
     .logo-container {
         width: 100px;
@@ -142,15 +138,17 @@ h1, h2 {
 }
 
 @media screen and (min-width: 380px) {
+    #main-title {
+        font-size: 2.8rem;
+    }
     h1 {
         font-size: 2.2rem;
     }
 }
 
 @media screen and (min-width: 447px) {
-    .title-container {
-        width: 70%;
-        height: 20%;
+    #main-title {
+        font-size: 3.2rem;
     }
 
     h1 {
@@ -178,9 +176,8 @@ h1, h2 {
     p.animated-text {
         font-size: 1.7rem;
     }
-    .title-container {
-        width: 70%;
-        height: 15%;
+    #main-title {
+        font-size: 4.2rem;
     }
     .logo-container {
         width: 150px;
@@ -218,10 +215,8 @@ h1, h2 {
         font-size: 1.9rem;
         animation: scrollText 15s linear infinite;
     }
-
-    .title-container {
-        height: 15%;
-        width: 70%;
+    #main-title {
+        font-size: 5.5rem;
     }
     .logo-container {
         width: 170px;
@@ -264,9 +259,8 @@ h1, h2 {
     header {
         height: 60vh;
     }
-    .title-container {
-        height: 13%;
-        width: 60%;
+    #main-title {
+        font-size: 8rem;
     }
     .logo-container {
         width: 200px;
@@ -294,9 +288,8 @@ h1, h2 {
     p.animated-text {
         animation: scrollText 18s linear infinite;
     }
-    .title-container {
-        width: 60%;
-        height: 12%;
+    #main-title {
+        font-size: 10rem;
     }
     .logo-container {
         width: 230px;
