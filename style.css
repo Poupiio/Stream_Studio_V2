@@ -22,6 +22,10 @@ h1, h2 {
     text-align: center;
 }
 
+li {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -200,16 +204,12 @@ a {
     /* FOOTER */
     footer {
         box-shadow: 0px 10px 40px 3px rgba(1, 189, 146, 0.3);
-        padding: 10px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         list-style: none;
         text-align: center;
-        img {
-            width: 40%;
-        }
         li {
             margin: 10px 0;
         }
@@ -224,6 +224,15 @@ a {
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         }
     }
+    .img-container {
+        margin-top: 20px;
+        width: 40%;
+        height: 30%;
+    }
+    .img-container img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (min-width: 380px) {
@@ -233,21 +242,31 @@ a {
     h1 {
         font-size: 2.2rem;
     }
+    #installation h1 {
+        font-size: 1.6rem;
+    }
+    .img-container {
+        width: 30%;
+    }
 }
 
 @media screen and (min-width: 447px) {
     #main-title {
         font-size: 3.2rem;
     }
-
     h1 {
         font-size: 2rem;
     }
-
     .card {
         margin-bottom: 20px;
     }
-    
+    #installation h1 {
+        font-size: 1.8rem;
+    }
+    .img-container {
+        width: 30%;
+        height: 25%;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -290,6 +309,20 @@ a {
         h2 {
             font-size: 1.8rem;
         }
+    }
+    #installation h1 {
+        font-size: 1.9rem;
+    }
+    .img-container {
+        width: 25%;
+        height: 20%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .img-container {
+        width: 20%;
+        height: 20%;
     }
 }
 
@@ -345,6 +378,16 @@ a {
             font-size: 2.3rem;
         }
     }
+    #installation h1 {
+        font-size: 2rem;
+    }
+    .banner-bottom {
+        height: 35vh;
+    }
+    .img-container {
+        width: 15%;
+        height: 15%;
+    }
 }
 
 @media screen and (min-width: 860px) {
@@ -353,6 +396,9 @@ a {
     }
     h1 {
         font-size: 3rem;
+    }
+    #installation h1 {
+        font-size: 2.3rem;
     }
 }
 
@@ -386,6 +432,26 @@ a {
             font-size: 3rem;
         }
     }
+    #installation h1 {
+        font-size: 2.5rem;
+    }
+    .banner-bottom {
+        height: 40vh;
+    }
+    .img-container {
+        width: 12%;
+        height: 10%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .banner-bottom {
+        height: 45vh;
+    }
+    .img-container {
+        width: 10%;
+        height: 8%;
+    }
 }
 
 @media screen and (min-width: 1450px) {
@@ -416,5 +482,14 @@ a {
     .card .content h3 {
         font-size: 1.5rem;
     }
-    
+}
+
+@media screen and (min-width: 1000px) {
+    .banner-bottom {
+        height: 50vh;
+    }
+    .img-container {
+        width: 8%;
+        height: 6%;
+    }
 }
