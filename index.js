@@ -12,7 +12,6 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 const images = document.querySelectorAll('.zoomIn');
-const changeArrow = document.querySelectorAll('.changeArrow');
 const windowWidth = window.innerWidth;
 
 images.forEach((img) => {
@@ -25,13 +24,9 @@ function arrowDirection() {
     const screenWidth = window.innerWidth;
 
     if (screenWidth >= 800) {
-        changeArrow.forEach((arrow) => {
-            arrow.innerHTML = "&#8594;";
-        })
+        changeArrow.innerHTML = "&#8594;";
     } else {
-        changeArrow.forEach((arrow) => {
-            arrow.innerHTML = "&#8595;";
-        })
+        changeArrow.innerHTML = "&#8595;";
     }
 }
 
