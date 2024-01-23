@@ -10,3 +10,16 @@ var swiper = new Swiper(".mySwiper", {
         disableOnInteraction: false
     },
 });
+
+const images = document.querySelectorAll('.zoomIn');
+const windowWidth = window.innerWidth;
+
+images.forEach((img) => {
+    img.addEventListener('click', () => {
+        img.classList.toggle('zoom');
+    })
+})
+
+if (windowWidth >= 992) {
+    console.log("ok");
+}
