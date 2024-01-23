@@ -130,7 +130,7 @@ a {
         width: 100%;
     }
     .card .img {
-        height: 1àvh;
+        height: 10vh;
         width: 100%;
     }
     .card .img img {
@@ -431,7 +431,7 @@ a {
         width: 65%;
     }
     .card .img {
-        height: 20vh;
+        height: 15vh;
     }
     .card .content {
         padding: 15px;
@@ -448,6 +448,7 @@ a {
         font-size: 2rem;
     }
     #installation a {
+        display: inline-block;
         font-size: 1.5rem;
     }
     #installation li img {
@@ -514,7 +515,7 @@ a {
         display: inline-block;
     }
     .banner-bottom {
-        height: 40vh;
+        height: 45vh;
     }
     .img-container {
         width: 8%;
@@ -564,5 +565,8 @@ a {
     }
     #installation li img {
         max-width: 40%;
+    }
+    .banner-bottom {
+        height: 60vh;
     }
 }
