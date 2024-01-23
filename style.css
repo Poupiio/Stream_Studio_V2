@@ -120,7 +120,7 @@ a {
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(210, 28, 73, 0.605);
         backdrop-filter: blur(8.3px);
-        margin: 15px;
+        margin-bottom: 50px;
         width: 100%;
     }
     .card .img {
@@ -257,9 +257,6 @@ a {
     h1 {
         font-size: 2rem;
     }
-    .card {
-        margin-bottom: 20px;
-    }
     #installation h1 {
         font-size: 1.8rem;
     }
@@ -296,7 +293,7 @@ a {
         font-size: 2.6rem;
     }
     .card {
-        margin: 0 auto 40px;
+        margin: 0 auto 50px;
         width: 80%;
     }
     .card .content {
@@ -362,7 +359,6 @@ a {
     }
     .card {
         width: 65%;
-        margin: 0 0 50px;
     }
     .card .img {
         height: 20vh;
@@ -423,9 +419,12 @@ a {
         margin: 0 auto;
     }
     .card {
-        width: 46%;
+        width: 40%;
         height: 690px;
-        margin-bottom: 50px;
+        margin: 0 10px 50px;
+    }
+    .card .img {
+        height: 13vh;
     }
     .carousel-container {
         h2 {
@@ -439,8 +438,7 @@ a {
         height: 40vh;
     }
     .img-container {
-        width: 12%;
-        height: 10%;
+        width: 8%;
     }
 }
 
@@ -448,9 +446,12 @@ a {
     .banner-bottom {
         height: 45vh;
     }
-    .img-container {
-        width: 10%;
-        height: 8%;
+    .card {
+        height: 630px;
+    }
+    #installation {
+        width: 75%;
+        margin: 40px auto;
     }
 }
 
@@ -481,15 +482,5 @@ a {
     }
     .card .content h3 {
         font-size: 1.5rem;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    .banner-bottom {
-        height: 50vh;
-    }
-    .img-container {
-        width: 8%;
-        height: 6%;
     }
 }
