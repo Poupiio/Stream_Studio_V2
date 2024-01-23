@@ -45,7 +45,7 @@ h1, h2 {
     /* HEADER W/ BANNER */
     header {
         width: 100%;
-        height: 30vh;
+        height: 25vh;
         margin-bottom: 20px;
         position: relative;
         overflow: hidden;
@@ -79,7 +79,8 @@ h1, h2 {
         left: 50%;
         transform: translate(-50%, -50%);
         color: rgba(179, 14, 22, 0.845);
-        font-size: 2.7rem;
+        font-size: 2.6rem;
+        letter-spacing: 4px;
     }
 
     /* SECTION #PRESENT */
@@ -135,11 +136,42 @@ h1, h2 {
             font-size: 1.1rem;
         }
     }
+
+    /* CAROUSEL */
+    #carousel {
+        margin: 20px 10px;
+    }
+
+    .carousel-container {
+        h2 {
+            margin-bottom: 30px;
+            font-size: 1.3rem;
+        }
+
+        .swiper {
+            width: 30%;
+            height: 100%;
+
+            .swiper-slide {
+              background: inherit;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 380px) {
     #main-title {
-        font-size: 2.8rem;
+        font-size: 2.9rem;
     }
     h1 {
         font-size: 2.2rem;
@@ -178,6 +210,7 @@ h1, h2 {
     }
     #main-title {
         font-size: 4.2rem;
+        letter-spacing: 10px;
     }
     .logo-container {
         width: 150px;
@@ -195,6 +228,11 @@ h1, h2 {
     }
     .card .content p {
         font-size: 1.3rem;
+    }
+    .carousel-container {
+        h2 {
+            font-size: 1.8rem;
+        }
     }
 }
 
@@ -217,6 +255,7 @@ h1, h2 {
     }
     #main-title {
         font-size: 5.5rem;
+        letter-spacing: 15px;
     }
     .logo-container {
         width: 170px;
@@ -244,6 +283,11 @@ h1, h2 {
     .card .content p {
         font-size: 1.4rem;
     }
+    .carousel-container {
+        h2 {
+            font-size: 2.3rem;
+        }
+    }
 }
 
 @media screen and (min-width: 860px) {
@@ -257,10 +301,11 @@ h1, h2 {
 
 @media screen and (min-width: 992px) {
     header {
-        height: 60vh;
+        height: 55vh;
     }
     #main-title {
-        font-size: 8rem;
+        font-size: 7.6rem;
+        letter-spacing: 18px;
     }
     .logo-container {
         width: 200px;
@@ -279,17 +324,23 @@ h1, h2 {
         height: 690px;
         margin-bottom: 50px;
     }
+    .carousel-container {
+        h2 {
+            font-size: 3rem;
+        }
+    }
 }
 
 @media screen and (min-width: 1450px) {
     header {
-        height: 70vh;
+        height: 65vh;
     }
     p.animated-text {
         animation: scrollText 18s linear infinite;
     }
     #main-title {
-        font-size: 10rem;
+        font-size: 9.5rem;
+        letter-spacing: 28px;
     }
     .logo-container {
         width: 230px;
@@ -300,7 +351,7 @@ h1, h2 {
     }
     .card {
         height: 650px;
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
     .card .img {
         height: 20vh;
