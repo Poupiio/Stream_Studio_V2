@@ -1,1 +1,1 @@
-https://poupiio.github.io/Stream_Studio_V2/
+https://poupiio.github.io/stream_studio_v2/
