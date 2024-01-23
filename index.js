@@ -14,7 +14,6 @@ var swiper = new Swiper(".mySwiper", {
 const images = document.querySelectorAll('.zoomIn');
 const windowWidth = window.innerWidth;
 
-
 images.forEach((img) => {
     img.addEventListener('click', () => {
         img.classList.toggle('zoom');
