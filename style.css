@@ -184,8 +184,9 @@ a {
 
     /* SECTION #INSTALLATION */
     #installation {
-        border: solid 1px blue;
-        margin: 40px 10px;
+        box-shadow: -10px 0px 13px -7px #0000008d, 10px 0px 13px -7px #0000008d, 5px 2px 41px 0px #5030CF;
+        border-radius: 3px;
+        margin: 40px 10px 60px;
         padding: 10px;
     
         h1 {
@@ -223,7 +224,7 @@ a {
 
 
     #installation li img {
-        margin: 10px auto;
+        margin: 20px auto;
         display: block;
         width: 100%;
         cursor: pointer;
@@ -534,7 +535,7 @@ a {
     }
     #installation {
         width: 75%;
-        margin: 40px auto;
+        margin: 40px auto 70px;
     }
 }
 
