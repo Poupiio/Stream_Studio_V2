@@ -121,6 +121,47 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
+
+
+    .cardTest {
+        box-shadow: -10px 0px 13px -7px #0000008d, 10px 0px 13px -7px #0000008d, 5px 2px 41px 0px #5030CF;
+        background-color: #0D0615;
+        border-radius: 16px;
+        backdrop-filter: blur(8.3px);
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .cardTest .imgTest {
+        height: 130px;
+        width: 130px;
+        margin: 15px auto 0;
+    }
+    .cardTest .imgTest img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 150px;
+        background: #0D0615;
+    }
+    .cardTest .content {
+        padding: 10px;
+        h3 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        i {
+            margin-right: 10px;
+            color: rgb(1,192,148);
+        }
+        i.wrong {
+            color: red;
+        }
+        li {
+            font-size: 1.1rem;
+        }
+    }
+
+
     .card {
         background: rgba(112, 115, 114, 0.3);
         border-radius: 16px;
