@@ -128,7 +128,7 @@ a {
         background-color: #0D0615;
         border-radius: 16px;
         backdrop-filter: blur(8.3px);
-        margin-bottom: 50px;
+        margin-bottom: 60px;
         width: 100%;
     }
     .cardTest .imgTest {
@@ -367,6 +367,10 @@ a {
         width: 30%;
         height: 25%;
     }
+    .cardTest {
+        width: 80%;
+        margin: 0 auto 60px;
+    }
     #installation li img {
         max-width: 60%;
     }
@@ -408,6 +412,20 @@ a {
     .card .content p {
         font-size: 1.3rem;
     }
+
+
+    .cardTest {
+        margin: 0 auto 50px;
+        width: 80%;
+    }
+    .cardTest .content {
+        padding: 15px;
+    }
+    .cardTest .content p {
+        font-size: 1.3rem;
+    }
+
+    
     .carousel-container {
         h2 {
             font-size: 1.8rem;
@@ -429,6 +447,10 @@ a {
     .img-container {
         width: 20%;
         height: 20%;
+    }
+    .cardTest {
+        width: 60%;
+        margin-bottom: 70px;
     }
 }
 
@@ -465,7 +487,7 @@ a {
     #presentation {
         width: 100%;
     }
-    .cards {
+    /* .cards {
         justify-content: space-around;
         align-items: center;
     }
@@ -480,6 +502,14 @@ a {
     }
     .card .content p {
         font-size: 1.4rem;
+    } */
+    .cards {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .cardTest {
+        width: 38%;
+        height: 400px;
     }
     .carousel-container {
         h2 {
