@@ -601,12 +601,17 @@ a {
         font-size: 6rem;
         letter-spacing: 10px;
     }
+    .cards {
+        border: solid 1px blue;
+        width: 100%;
+    }
     .card {
-        height: 470px;
-        margin-bottom: 70px;
+        width: 20%;
+        margin: 0 10px 0;
+        height: 400px;
     }
     .card .img {
-        height: 20vh;
+        height: 40%;
     }
     .card .content h3 {
         font-size: 1.5rem;
