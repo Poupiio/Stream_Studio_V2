@@ -126,7 +126,7 @@ a {
         flex-wrap: wrap;
     }
     .card {
-        background: linear-gradient(74deg, rgba(82,49,207,1) 26%, rgba(203,100,129,1) 71%);
+        background: #fff;
         box-shadow: 0 0 20px 4px #5030cfc3;
         border-radius: 16px;
         backdrop-filter: blur(8.3px);
@@ -147,6 +147,7 @@ a {
     .card .content {
         padding: 10px;
         margin-bottom: 10px;
+        color: #000;
         
         h3 {
             font-size: 1.2rem;
@@ -162,6 +163,33 @@ a {
         }
         li {
             font-size: 1.1rem;
+        }
+        h4 {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            text-align: center;
+
+            span {
+                font-size: 0.9rem;
+            }
+        }
+        a {
+            color: #fff;
+            padding: 5px 10px;
+            width: fit-content;
+            margin: 20px auto 0;
+            font-weight: bold;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            display: block;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            background: linear-gradient(74deg, rgba(82,49,207,1) 26%, rgba(203,100,129,1) 71%);
+        }
+        a:hover {
+            color: rgb(1,192,148);
         }
     }
 
