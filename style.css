@@ -173,6 +173,15 @@ a {
                 font-size: 0.9rem;
             }
         }
+        .payment-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .fa-paypal, .fa-credit-card {
+                color: blue;
+            }
+        }
         a {
             color: #fff;
             padding: 5px 10px;
