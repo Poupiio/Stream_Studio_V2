@@ -92,7 +92,8 @@ a {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: rgba(179, 14, 22, 0.845);
+        color: #DC1A28;
+        text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
         font-size: 2rem;
         letter-spacing: 4px;
     }
@@ -584,7 +585,7 @@ a {
 
 @media screen and (min-width: 2000px) {
     header {
-        height: 65vh;
+        height: 80vh;
     }
     p.animated-text {
         animation: scrollText 25s linear infinite;
@@ -602,18 +603,26 @@ a {
         letter-spacing: 10px;
     }
     .cards {
-        border: solid 1px blue;
-        width: 100%;
+        width: 90%;
+        justify-content: center;
+        margin: 50px auto;
     }
     .card {
-        width: 20%;
-        margin: 0 10px 0;
-        height: 400px;
+        width: 15%;
+        margin: 0 50px 0;
+        height: 450px;
     }
     .card .img {
         height: 40%;
     }
+    .card .content {
+        padding: 15px;
+    }
     .card .content h3 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    .card .content li {
         font-size: 1.5rem;
     }
     #installation li img {
