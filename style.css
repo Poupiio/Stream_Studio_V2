@@ -109,7 +109,7 @@ a {
     }
     h1 {
         font-size: 2rem;
-        margin: 20px auto 15px;
+        margin: 20px 10px 15px;
     }
     #presentation {
         width: 80%;
@@ -121,30 +121,28 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
-
-
-    .cardTest {
-        box-shadow: -10px 0px 13px -7px #0000008d, 10px 0px 13px -7px #0000008d, 5px 2px 41px 0px #5030CF;
-        background-color: #0D0615;
+    .card {
+        background: linear-gradient(74deg, rgba(82,49,207,1) 26%, rgba(203,100,129,1) 71%);
+        box-shadow: 0 0 20px 4px #5030cfc3;
         border-radius: 16px;
         backdrop-filter: blur(8.3px);
         margin-bottom: 60px;
         width: 100%;
     }
-    .cardTest .imgTest {
+    .card .img {
         height: 10vh;
         width: 100%;
     }
-    .cardTest .imgTest img {
+    .card .img img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* border-radius: 150px; */
         border-radius: 16px 16px 0 0;
         background: #0D0615;
     }
-    .cardTest .content {
+    .card .content {
         padding: 10px;
+        margin-bottom: 10px;
         
         h3 {
             font-size: 1.2rem;
@@ -159,37 +157,6 @@ a {
             color: red;
         }
         li {
-            font-size: 1.1rem;
-        }
-    }
-
-
-    .card {
-        background: rgba(112, 115, 114, 0.3);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(210, 28, 73, 0.605);
-        backdrop-filter: blur(8.3px);
-        margin-bottom: 50px;
-        width: 100%;
-    }
-    .card .img {
-        height: 10vh;
-        width: 100%;
-    }
-    .card .img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 16px 16px 0 0;
-        background: rgba(1, 189, 146, 0.3);
-    }
-    .card .content {
-        padding: 10px;
-        h3 {
-            font-size: 1.3rem;
-            margin: 10px 0;
-        }
-        p {
             font-size: 1.1rem;
         }
     }
@@ -345,13 +312,17 @@ a {
         font-size: 2.9rem;
     }
     h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     #installation h1 {
         font-size: 1.6rem;
     }
     .img-container {
         width: 30%;
+    }
+    .card {
+        width: 80%;
+        margin: 0 auto 50px;
     }
 }
 
@@ -369,7 +340,7 @@ a {
         width: 30%;
         height: 25%;
     }
-    .cardTest {
+    .card {
         width: 80%;
         margin: 0 auto 60px;
     }
@@ -405,29 +376,8 @@ a {
         font-size: 2.6rem;
     }
     .card {
-        margin: 0 auto 50px;
-        width: 80%;
+        width: 70%;
     }
-    .card .content {
-        padding: 15px;
-    }
-    .card .content p {
-        font-size: 1.3rem;
-    }
-
-
-    .cardTest {
-        margin: 0 auto 50px;
-        width: 80%;
-    }
-    .cardTest .content {
-        padding: 15px;
-    }
-    .cardTest .content p {
-        font-size: 1.3rem;
-    }
-
-    
     .carousel-container {
         h2 {
             font-size: 1.8rem;
@@ -450,7 +400,7 @@ a {
         width: 20%;
         height: 20%;
     }
-    .cardTest {
+    .card {
         width: 60%;
         margin-bottom: 70px;
     }
@@ -489,29 +439,13 @@ a {
     #presentation {
         width: 100%;
     }
-    /* .cards {
-        justify-content: space-around;
-        align-items: center;
-    }
-    .card {
-        width: 65%;
-    }
-    .card .img {
-        height: 15vh;
-    }
-    .card .content {
-        padding: 15px;
-    }
-    .card .content p {
-        font-size: 1.4rem;
-    } */
     .cards {
         width: 80%;
         margin: 0 auto;
     }
-    .cardTest {
+    .card {
         width: 38%;
-        height: 400px;
+        height: 420px;
     }
     .carousel-container {
         h2 {
@@ -571,7 +505,7 @@ a {
     }
     .card {
         width: 40%;
-        height: 690px;
+        height: 400px;
         margin: 0 10px 50px;
     }
     .card .img {
@@ -604,7 +538,7 @@ a {
         height: 45vh;
     }
     .card {
-        height: 610px;
+        height: 400px;
     }
     #installation {
         width: 75%;
@@ -631,7 +565,44 @@ a {
         letter-spacing: 10px;
     }
     .card {
-        height: 650px;
+        height: 470px;
+        margin-bottom: 70px;
+    }
+    .card .img {
+        height: 20vh;
+    }
+    .card .content h3 {
+        font-size: 1.5rem;
+    }
+    #installation li img {
+        max-width: 40%;
+    }
+    .banner-bottom {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    header {
+        height: 65vh;
+    }
+    p.animated-text {
+        animation: scrollText 25s linear infinite;
+        font-size: 2.2rem;
+    }
+    #main-title {
+        font-size: 9rem;
+        letter-spacing: 28px;
+    }
+    .logo-container {
+        width: 230px;
+    }
+    h1 {
+        font-size: 6rem;
+        letter-spacing: 10px;
+    }
+    .card {
+        height: 470px;
         margin-bottom: 70px;
     }
     .card .img {
