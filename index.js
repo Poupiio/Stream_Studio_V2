@@ -23,7 +23,7 @@ images.forEach((img) => {
 function arrowDirection() {
     const screenWidth = window.innerWidth;
 
-    if (screenWidth >= 800) {
+    if (screenWidth >= 895) {
         changeArrow.innerHTML = "&#8594;";
     } else {
         changeArrow.innerHTML = "&#8595;";

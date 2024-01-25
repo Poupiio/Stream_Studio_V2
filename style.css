@@ -177,8 +177,11 @@ a {
         }
 
         .swiper {
-            width: 30%;
+            width: 60%;
             height: 100%;
+            background: #b9b5c471;
+            padding: 20px;
+            border-radius: 8px;
 
             .swiper-slide {
               background: inherit;
@@ -200,8 +203,9 @@ a {
     #installation {
         box-shadow: -10px 0px 13px -7px #0000008d, 10px 0px 13px -7px #0000008d, 5px 2px 41px 0px #5030CF;
         border-radius: 3px;
-        margin: 40px 10px 60px;
+        margin: 40px auto 60px;
         padding: 10px;
+        width: 90%;
     
         h1 {
             margin: 20px 0;
@@ -387,6 +391,14 @@ a {
             font-size: 1.8rem;
         }
     }
+    .carousel-container {
+        .swiper {
+            width: 50%;
+        }
+    }
+    #installation {
+        width: 80%;
+    }
     #installation h1 {
         font-size: 1.9rem;
     }
@@ -442,6 +454,11 @@ a {
     }
     #presentation {
         width: 100%;
+    }
+    .carousel-container {
+        .swiper {
+            width: 40%;
+        }
     }
     .cards {
         width: 80%;
@@ -544,6 +561,11 @@ a {
     .card {
         height: 400px;
         width: 35%;
+    }
+    .carousel-container {
+        .swiper {
+            width: 30%;
+        }
     }
     #installation {
         width: 75%;
