@@ -165,8 +165,8 @@ a {
             font-size: 1.1rem;
         }
         h4 {
-            font-size: 1.5rem;
-            margin: 20px 0;
+            font-size: 1.9rem;
+            margin: 20px 0 5px;
             text-align: center;
 
             span {
@@ -177,9 +177,9 @@ a {
             display: flex;
             justify-content: center;
             align-items: center;
-            
             .fa-paypal, .fa-credit-card {
                 color: blue;
+                font-size: 1.4rem;
             }
         }
         a {
@@ -388,6 +388,14 @@ a {
     .card {
         width: 75%;
         margin: 0 auto 60px;
+        .content {
+            h4 {
+                font-size: 2.8rem;
+                span {
+                    font-size: 1.1rem;
+                }
+            }
+        }
     }
     #installation li img {
         max-width: 60%;
@@ -456,6 +464,11 @@ a {
     .card {
         width: 60%;
         margin-bottom: 70px;
+        .content {
+            h4 {
+                font-size: 3rem;
+            }
+        }
     }
 }
 
@@ -502,8 +515,8 @@ a {
         margin: 0 auto;
     }
     .card {
-        width: 38%;
-        height: 420px;
+        width: 40%;
+        height: 570px;
     }
     .carousel-container {
         h2 {
@@ -563,8 +576,16 @@ a {
     }
     .card {
         width: 40%;
-        height: 400px;
+        height: 560px;
         margin: 0 10px 50px;
+        .content {
+            h4 {
+                font-size: 4rem;
+                span {
+                    font-size: 1.2rem;
+                }
+            }
+        }
     }
     .card .img {
         height: 13vh;
@@ -596,7 +617,7 @@ a {
         height: 45vh;
     }
     .card {
-        height: 400px;
+        height: 570px;
         width: 35%;
     }
     .carousel-container {
@@ -629,7 +650,7 @@ a {
         letter-spacing: 10px;
     }
     .card {
-        height: 470px;
+        height: 650px;
         margin-bottom: 70px;
     }
     .card .img {
@@ -673,7 +694,7 @@ a {
     .card {
         width: 15%;
         margin: 0 50px 0;
-        height: 600px;
+        height: 800px;
     }
     .card .img {
         height: 25%;
