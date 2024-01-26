@@ -169,7 +169,8 @@ a {
         li {
             font-size: 1.1rem;
         }
-
+    }
+    
         .pricing {
             border: solid 1px red;
             display: flex;
@@ -177,17 +178,12 @@ a {
             margin: 50px 0;
             h3 {
                 margin: 0;
+                font-size: 1.9rem;
+                text-align: center;
+                .price {
+                    font-size: 0.9rem;
+                }
             }
-        }
-    }
-    h3 {
-        font-size: 1.9rem;
-        margin: 20px 0 5px;
-        text-align: center;
-
-        span {
-            font-size: 0.9rem;
-        }
     }
     .card .payment-container {
         display: flex;
