@@ -98,6 +98,7 @@ a {
         text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
         font-size: 2rem;
         letter-spacing: 4px;
+        margin: 0;
     }
 
     /* SECTION #PRESENT */
@@ -184,7 +185,7 @@ a {
         }
         a {
             color: #fff;
-            padding: 5px 10px;
+            padding: 10px 15px;
             width: fit-content;
             margin: 20px auto 0;
             font-weight: bold;
@@ -654,7 +655,7 @@ a {
         margin-bottom: 70px;
     }
     .card .img {
-        height: 20vh;
+        height: 15vh;
     }
     .card .content h3 {
         font-size: 1.5rem;
