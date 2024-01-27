@@ -142,7 +142,6 @@ a {
         }
     }
     .pricing {
-        border: solid 1px red;
         display: flex;
         flex-direction: column;
         margin: 50px 0;
@@ -480,7 +479,6 @@ a {
     #cards {
         width: 80%;
         margin: 0 auto;
-        border: solid 1px red;
     }
     .card {
         padding-bottom: 4rem;
