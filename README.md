@@ -1,1 +1,1 @@
-https://poupiio.github.io/stream_studio_v2/
+https://poupiio.github.io/iptv/
