@@ -571,7 +571,6 @@ a {
         }
     }
     #cards {
-        border: solid 1px red;
         width: 100%;
     }
     .card {
@@ -582,7 +581,7 @@ a {
 @media screen and (min-width: 2000px) {
     @keyframes scrollText {
         0% {
-            transform: translateX(170%);
+            transform: translateX(160%);
         } 100% {
             transform: translateX(-100%);
         }
@@ -591,7 +590,7 @@ a {
         height: 80vh;
     }
     .animated-text {
-        animation: scrollText 25s linear infinite;
+        animation: scrollText 30s linear infinite;
         font-size: 5rem;
     }
     .logo-container {
