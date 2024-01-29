@@ -105,7 +105,7 @@ a {
     }
     .card {
         width: 100%;
-        background: #fff;
+        background: #d1d1d1;
         box-shadow: 0 0 20px 4px #5030cfc3;
         border-radius: 16px;
         backdrop-filter: blur(8.3px);
@@ -546,6 +546,23 @@ a {
     }
     .banner-bottom {
         height: 60vh;
+    }
+}
+@media screen and (min-width: 1900px) {
+    @keyframes scrollText {
+        0% {
+            transform: translateX(180%);
+        } 100% {
+            transform: translateX(-100%);
+        }
+    }
+    #cards {
+        border: solid 1px red;
+        width: 100%;
+    }
+    .card {
+        width: 20%;
+        height: 600px;
     }
 }
 @media screen and (min-width: 2000px) {
